@@ -9,12 +9,12 @@
 */
 import 'dart:math';
 
-int func(double y, int x) {
+int func(int x, double y) {
   double c = sin(y) * x;
   int a = c.round();
   return a;
 }
 
 void main() {
-  print(func(pi / 6, 8));
+  print(func(8, 5));
 }
