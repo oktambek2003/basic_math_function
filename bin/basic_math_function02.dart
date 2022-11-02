@@ -6,4 +6,13 @@
   Returns:
       L (double): the length of the circle
 */
-void main() {}
+import 'dart:math';
+
+double func(double r) {
+  double a = 2 * pi * r;
+  return a;
+}
+
+void main() {
+  print(func(1));
+}
