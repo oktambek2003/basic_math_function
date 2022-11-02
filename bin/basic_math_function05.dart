@@ -7,5 +7,15 @@ Create function named func with a argument
   Returns:
       result (float): multiply x by the cosine of y. Round the result.
 */
+import 'dart:math';
 
-void main() {}
+int func(int x, double y) {
+  double a = x * cos(y);
+  int b = a.toInt();
+  pow(a, 2);
+  return b;
+}
+
+void main() {
+  print(func(8,pi/3));
+}
